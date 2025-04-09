@@ -10,10 +10,9 @@ module "vpc" {
 module "ec2" {
   source                = "./modules/ec2"
   instance_type         = var.instance_type
-  ami_id                = var.ami_id
-  key_name              = var.key_name
   subnet_id             = module.vpc.public_subnet_1_id
   vpc_security_group_id = module.vpc.default_sg_id
+  key_name              = var.key_name
 }
 
 module "rds" {
