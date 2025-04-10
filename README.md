@@ -97,7 +97,7 @@ Adjust RDS engine and instance type in terraform.tfvars as needed.
 Consider adding a NAT Gateway if instances in private subnets need internet access.
 
 🛠️ Author
-Saurabh Jadhav. 
+*Saurabh Jadhav.* 
 Project: AWS Infrastructure Automation with Terraform
 
 📄 License
